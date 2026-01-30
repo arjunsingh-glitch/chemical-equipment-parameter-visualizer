@@ -1,0 +1,31 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Django / SQLite database (only keep locally)
+backend/db.sqlite3
+
+# Node / frontend
+frontend-web/node_modules/
+node_modules/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE / editor noise
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+
