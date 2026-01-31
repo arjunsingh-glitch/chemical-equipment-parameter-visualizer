@@ -244,7 +244,8 @@ class EquipmentUploadView(APIView):
             f.write(buffer.getvalue())
 
         # Return the relative path so the frontend can combine it with MEDIA_URL.
-        relative_path = os.path.join("media", "reports", filename)
+        # Use forward slashes so URLs work on all platforms (Windows returns \ from os.path.join).
+        relative_path = "media/reports/" + filename
         return relative_path
 
     def _trim_history(self) -> None:
