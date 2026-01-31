@@ -6,8 +6,8 @@ Python, and present the results both on the web and in a desktop application.
 
 ### 📺 Project Demo Video
 
-You can watch the full demonstration of this hybrid application on YouTube:
-**[Watch the Demo Video Here](https://youtu.be/zTHJymRW_O8)**
+You can watch the full demonstration of this hybrid application here:
+**[Watch the Demo Video (Google Drive)](https://drive.google.com/file/d/1tHvIXom8lqjGFrRgC48riTj4AunWd7a4/view?usp=sharing)**
 
 ### 🔑 Authentication Credentials
 

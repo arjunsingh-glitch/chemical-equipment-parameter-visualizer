@@ -15,7 +15,6 @@ import json
 import os
 from datetime import datetime
 from io import BytesIO
-
 import pandas as pd
 from django.conf import settings
 from django.utils.timezone import now
